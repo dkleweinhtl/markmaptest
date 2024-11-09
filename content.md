@@ -9,7 +9,7 @@
 ### Another Test
 
 - Hier kann man auch schön Text hinzufügen.
-- [Self Efficiancy](https://github.com/ToniBruckner/Thoughts/blob/main/pages/Self-Efficancy.md)
+- [Self Efficiancy](../pages/Self-Efficancy.md)
 
 ### One more Test
 
