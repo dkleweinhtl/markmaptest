@@ -3,7 +3,7 @@ name: Generate Markmap HTML
 on:
   push:
     paths:
-      - mindmap.md  # Path to your markdown file
+      - content.md  # Path to your markdown file
   workflow_dispatch: # Allows manual triggering from the GitHub Actions tab
 
 jobs:
