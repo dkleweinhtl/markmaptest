@@ -24,3 +24,4 @@ jobs:
 
     - name: Generate HTML from Markdown
       run: markmap-cli -o index.html mindmap.md
+
