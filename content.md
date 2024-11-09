@@ -1,6 +1,6 @@
 # Mind Map Example
 
-- Main Topic
+- Test
   - Subtopic 1
   - Subtopic 2
     - Subsubtopic 2.1
