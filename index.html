@@ -15,7 +15,8 @@
   - Item 2
   </textarea>
   <script>
-    markmap.autoLoader.renderAll();
+    const el = document.getElementById('mindmap');
+    markmap.autoLoader.renderAll({ content: el.value });
   </script>
 </body>
 </html>
