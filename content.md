@@ -1,4 +1,4 @@
-# Thoughts
+# Gedanken
 
 ## [Teile und Herrsche](/pages/teile-und-hersche.md)
 
