@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - content.md  # Only trigger on changes to this file
+      - .github/workflows/markmap.yml  # Also trigger on changes to this file
+      - pages/**  # Also trigger on changes to files in this folder
   workflow_dispatch:  # Allows manual trigger if needed
 
 jobs:
@@ -33,7 +35,7 @@ jobs:
           cd Thoughts
           cp ../index.html .  # Copy index.html into the target repo
           cp -r ../pages .  # Copy the entire folder into the target repo
-          git add index.html my-folder  # Stage index.html and the folder
+          git add index.html pages  # Stage index.html and the folder
           git commit -m "Auto-update Markmap HTML and folder"
           git push origin main
 
