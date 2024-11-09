@@ -30,7 +30,7 @@ jobs:
           git config --global user.email "d.klewein@htl-leonding.ac.at"
           git config --global user.name "GitHub Action"
           git clone https://x-access-token:${TOKEN}@github.com/ToniBruckner/Thoughts
-          cd target-repo
+          cd Thoughts
           cp ../index.html .  # Kopiert die Datei ins Ziel-Repo
           git add index.html
           git commit -m "Auto-update Markmap HTML"
