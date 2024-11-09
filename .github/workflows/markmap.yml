@@ -19,8 +19,5 @@ jobs:
         with:
           node-version: '20'  # Explicitly set Node.js version to 20 for future compatibility
 
-      - name: Install Markmap CLI
-        run: npm install -g markmap-cli
-
       - name: Generate HTML from Markdown
-        run: markmap-cli -o index.html content.md
+        run: npx markmap-cli -o index.html content.md  # Run markmap-cli using npx
