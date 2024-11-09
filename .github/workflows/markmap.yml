@@ -3,25 +3,24 @@ name: Generate Markmap HTML
 on:
   push:
     paths:
-      - content.md  # Path to your markdown file
-  workflow_dispatch: # Allows manual triggering from the GitHub Actions tab
+      - content.md  # Only trigger on changes to this file
+  workflow_dispatch:  # Allows manual trigger if needed
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check out the repository
-      uses: actions/checkout@v2
+      - name: Check out the repository
+        uses: actions/checkout@v3  # Updated to the latest version
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '20'
+      - name: Set up Node.js
+        uses: actions/setup-node@v3  # Updated to the latest version
+        with:
+          node-version: '20'  # Explicitly set Node.js version to 20 for future compatibility
 
-    - name: Install Markmap CLI
-      run: npm install -g markmap-cli
+      - name: Install Markmap CLI
+        run: npm install -g markmap-cli
 
-    - name: Generate HTML from Markdown
-      run: markmap-cli -o index.html mindmap.md
-
+      - name: Generate HTML from Markdown
+        run: markmap-cli -o index.html mindmap.md
