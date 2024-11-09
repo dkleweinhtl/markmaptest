@@ -23,4 +23,4 @@ jobs:
         run: npm install -g markmap-cli
 
       - name: Generate HTML from Markdown
-        run: markmap-cli -o index.html mindmap.md
+        run: markmap-cli -o index.html content.md
