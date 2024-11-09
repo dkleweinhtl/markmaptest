@@ -1,16 +1,11 @@
-# Mind Map Example
+# Thoughts
 
-## Test
+## [Teile und Herrsche](..\pages\teile-und-hersche.md)
 
-- Testdfdasf aff 
+## [Motivtion kommt vom Handlen](..\pages\motivation-von-handlen.md)
 
-## Test1
+## [Glauben, Meinen und Wissen](..\pages\glauben-meinen-wissen.md)
 
-### Another Test
+## [Schließen der Wissen-Handlungslücke - Selbstwirksamkeit](../pages/selbstwirksamkeit.md)
 
-- Hier kann man auch schön Text hinzufügen.
-- [Self Efficiancy](../pages/Self-Efficancy.md)
-
-### One more Test
-
-aber wie füge ich normalen Text hinzu?
+## [Wer alles verteidigt, verteidigt nichts](..\pages\teile-und-hersche.md)
