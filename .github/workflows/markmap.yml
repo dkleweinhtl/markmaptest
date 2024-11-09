@@ -35,7 +35,7 @@ jobs:
           cd Thoughts
           cp ../index.html .  # Copy index.html into the target repo
           cp -r ../_pages .  # Copy the entire folder into the target repo
-          git add index.html pages  # Stage index.html and the folder
+          git add index.html _pages  # Stage index.html and the folder
           git commit -m "Auto-update Markmap HTML and folder"
           git push origin main
 
