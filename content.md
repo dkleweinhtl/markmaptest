@@ -2,7 +2,7 @@
 
 ## [Teile und Herrsche](/pages/teile-und-hersche.md)
 
-## [Motivtion kommt vom Handlen](/pages/motivation-vom-handlen.md)
+## [Motivation kommt vom Handlen](/pages/motivation-vom-handlen.md)
 
 ## [Glauben, Meinen und Wissen](/pages/glauben-meinen-wissen.md)
 
