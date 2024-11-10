@@ -39,6 +39,7 @@ jobs:
           cp ../_config.yml .  # Copy Jekyll config file into the target repo
           cp -r ../pages .  # Copy the entire folder into the target repo
           cp -r ../_layouts .  # Copy the entire folder into the target repo
+          cp -r ../_includes .  # Copy the entire folder into the target repo
           git add index.html pages _config.yml _layouts _includes # Stage index.html and the other files
           git commit -m "Auto-update Markmap HTML and folder"
           git push origin main
