@@ -4,9 +4,9 @@
 
 ## [Motivation kommt vom Handlen](pages/motivation-vom-handlen)
 
-## [Glauben, Meinen und Wissen](pages/glauben-meinen-wissen)
-
 ## [Schließen der Wissen-Handlungslücke - Selbstwirksamkeit](pages/selbstwirksamkeit)
+
+## [Glauben, Meinen und Wissen](pages/glauben-meinen-wissen)
 
 ## [Fokussierung - Wer alles verteidigt, verteidigt nichts](pages/fokussierung)
 
