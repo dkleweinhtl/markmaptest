@@ -25,7 +25,7 @@ jobs:
           node-version: '23'  # Explicitly set Node.js version to 23 for future compatibility.
 
       - name: Generate HTML from Markdown
-        run: npx markmap-cli -o index.html content.md  # Run markmap-cli using npx
+        run: npx markmap-cli -o index.html content.md  # Run markmap-cli using npx.
 
       - name: Push index.html to Target Repository
         env:
