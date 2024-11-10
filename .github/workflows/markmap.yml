@@ -5,7 +5,7 @@ on:
     paths:
       - content.md  # Only trigger on changes to this file
       - .github/workflows/markmap.yml  # Also trigger on changes to this file
-      - _pages/** 
+      - pages/** 
       - _config.yml # Also trigger on changes to files in this folder
   workflow_dispatch:  # Allows manual trigger if needed
 
