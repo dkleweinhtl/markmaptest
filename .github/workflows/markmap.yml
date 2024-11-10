@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4  # Updated to the latest version
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4  # Updated to the latest version
+        uses: actions/setup-node@v4  # Updated to the latest version.
         with:
           node-version: '23'  # Explicitly set Node.js version to 23 for future compatibility.
 
