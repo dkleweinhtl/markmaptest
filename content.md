@@ -11,3 +11,5 @@
 ## [Fokussierung - Wer alles verteidigt, verteidigt nichts](pages/fokussierung)
 
 ## [Prokrastination / Aufschieberitis](pages/prokrastination)
+
+## [New Topic](pages/teile-und-hersche.md)
