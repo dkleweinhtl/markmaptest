@@ -1,13 +1,13 @@
 # Gedanken
 
-## [Teile und Herrsche](pages/teile-und-hersche.md)
+## [Teile und Herrsche](pages/teile-und-hersche)
 
-## [Motivation kommt vom Handlen](pages/motivation-vom-handlen.md)
+## [Motivation kommt vom Handlen](pages/motivation-vom-handlen)
 
 ## [Glauben, Meinen und Wissen](pages/glauben-meinen-wissen)
 
 ## [Schließen der Wissen-Handlungslücke - Selbstwirksamkeit](pages/selbstwirksamkeit)
 
-## [Fokussierung - Wer alles verteidigt, verteidigt nichts](pages/fokussierung.md)
+## [Fokussierung - Wer alles verteidigt, verteidigt nichts](pages/fokussierung)
 
-## [Prokrastination / Aufschieberitis](pages/test.html)
+## [Prokrastination / Aufschieberitis](pages/prokrastination)
