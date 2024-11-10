@@ -11,11 +11,3 @@
 ## [Fokussierung - Wer alles verteidigt, verteidigt nichts](pages/fokussierung)
 
 ## [Prokrastination / Aufschieberitis](pages/prokrastination)
-
-## Pages
-
-{% for page in site.pages %}
-  {% unless page.title == "404" or page.title == "Site Map" %}
-    - [{{ page.title }}]({{ page.url }})
-  {% endunless %}
-{% endfor %}
