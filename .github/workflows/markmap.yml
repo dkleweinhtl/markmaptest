@@ -16,10 +16,10 @@ jobs:
       contents: write
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v3  # Updated to the latest version
+        uses: actions/checkout@v4  # Updated to the latest version
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3  # Updated to the latest version
+        uses: actions/setup-node@v4  # Updated to the latest version
         with:
           node-version: '23'  # Explicitly set Node.js version to 20 for future compatibility
 
