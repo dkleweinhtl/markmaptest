@@ -33,7 +33,8 @@ jobs:
           git config --global user.name "GitHub Action"
           git clone https://x-access-token:${TOKEN}@github.com/ToniBruckner/Thoughts
           cd Thoughts
-          cp ../* .  # Copy index.html into the target repo
+          cp ../index.html .  # Copy index.html into the target repo
+          cp ../_config.yml .  # Copy Jekyll config file into the target repo
           cp -r ../pages .  # Copy the entire folder into the target repo
           git add index.html pages  # Stage index.html and the folder
           git commit -m "Auto-update Markmap HTML and folder"
