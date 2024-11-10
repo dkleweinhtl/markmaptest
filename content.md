@@ -10,4 +10,4 @@
 
 ## [Fokussierung - Wer alles verteidigt, verteidigt nichts](pages/fokussierung.md)
 
-## [Prokrastination](pages/test.html)
+## [Prokrastination / Aufschieberitis](pages/test.html)
