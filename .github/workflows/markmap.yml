@@ -22,7 +22,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4  # Updated to the latest version
         with:
-          node-version: '23'  # Explicitly set Node.js version to 23 for future compatibility
+          node-version: '23'  # Explicitly set Node.js version to 23 for future compatibility.
 
       - name: Generate HTML from Markdown
         run: npx markmap-cli -o index.html content.md  # Run markmap-cli using npx
