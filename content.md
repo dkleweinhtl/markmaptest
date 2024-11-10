@@ -1,11 +1,11 @@
 # Gedanken
 
-## [Teile und Herrsche](/teile-und-hersche)
+## [Teile und Herrsche](/pages/teile-und-hersche.md)
 
-## [Motivation kommt vom Handlen](motivation-vom-handlen.md)
+## [Motivation kommt vom Handlen](/pages/motivation-vom-handlen.md)
 
-## [Glauben, Meinen und Wissen](/_pages/glauben-meinen-wissen)
+## [Glauben, Meinen und Wissen](/pages/glauben-meinen-wissen)
 
-## [Schließen der Wissen-Handlungslücke - Selbstwirksamkeit](/selbstwirksamkeit)
+## [Schließen der Wissen-Handlungslücke - Selbstwirksamkeit](/pages/selbstwirksamkeit)
 
-## [Fokussierung - Wer alles verteidigt, verteidigt nichts](/_pages/fokussierung.md)
+## [Fokussierung - Wer alles verteidigt, verteidigt nichts](/pages/fokussierung.md)
