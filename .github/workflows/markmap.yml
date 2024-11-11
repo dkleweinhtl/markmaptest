@@ -27,6 +27,20 @@ jobs:
       - name: Generate HTML from Markdown
         run: npx markmap-cli -o index.html content.md  # Run markmap-cli using npx.
 
+      - name: Add custom font to index.html
+        run: |
+          # Einfügen des benutzerdefinierten @font-face CSS in den <head>-Abschnitt
+          sed -i '/<head>/a \
+          <style>\
+          @font-face {\
+            font-family: "SpecialElite";\
+            src: url("/assets/fonts/SpecialElite-Regular.ttf") format("truetype");\
+            font-weight: normal;\
+            font-style: normal;\
+          }\
+          .markmap { font-family: "SpecialElite", sans-serif; }\
+          </style>' index.html
+
       - name: Push index.html to Target Repository
         env:
           TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}
@@ -41,6 +55,10 @@ jobs:
           cp -r ../assets .  # Copy the entire folder into the target repo
           cp -r ../_layouts .  # Copy the entire folder into the target repo
           git add index.html pages _config.yml assets _layouts # Stage index.html and the other files
-          git commit -m "Auto-update Markmap HTML and folder"
-          git push origin main
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Auto-update Markmap HTML with custom font and folders"
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
 
