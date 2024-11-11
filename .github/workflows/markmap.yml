@@ -34,7 +34,7 @@ jobs:
           <style>\
           @font-face {\
             font-family: "SpecialElite";\
-            src: url("/assets/fonts/SpecialElite-Regular.ttf") format("truetype");\
+            src: url("assets/fonts/SpecialElite-Regular.ttf") format("truetype");\
             font-weight: normal;\
             font-style: normal;\
           }\
