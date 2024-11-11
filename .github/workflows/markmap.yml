@@ -31,17 +31,17 @@ jobs:
         run: |
           # Einfügen des benutzerdefinierten @font-face CSS in den <head>-Abschnitt
           sed -i '/<head>/a \
-          <style>
-          @font-face {
-            font-family: "SpecialElite";
-            src: url("/assets/fonts/SpecialElite-Regular.ttf") format("truetype");
-            font-weight: normal;
-            font-style: normal;
-          }
-          .markmap {
-            --markmap-font: "SpecialElite", sans-serif; /* Overwrite the markmap font variable */
-            font: var(--markmap-font);
-          }
+          <style>\
+          @font-face {\
+            font-family: "SpecialElite";\
+            src: url("assets/fonts/SpecialElite-Regular.ttf") format("truetype");\
+            font-weight: normal;\
+            font-style: normal;\
+          }\
+          .markmap {\
+            --markmap-font: "SpecialElite", sans-serif; /* Overwrite the markmap font variable */\
+            font: var(--markmap-font);\
+          }\
           </style>' index.html
 
       - name: Push index.html to Target Repository
